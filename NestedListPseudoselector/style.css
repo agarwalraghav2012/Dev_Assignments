@@ -1,0 +1,35 @@
+*{
+    background-color: lightcyan ;
+}
+
+.dept1 {
+    color:rgb(197, 84, 39);
+    font-size : 20px;
+}
+.dept2 {
+    color: darkviolet;
+    font-size: 0px;
+
+}
+.dept3 {
+    color: darkgreen;
+    font-size: 0px;
+}
+
+.add {
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+#s1:hover #s5{
+    font-size: 20px ;
+}
+#s2:hover #s6{
+    font-size: 20px ;
+}
+#s3:hover #s7{
+    font-size: 20px ;
+}
+#s4:hover #s8{
+    font-size: 20px ;
+}
