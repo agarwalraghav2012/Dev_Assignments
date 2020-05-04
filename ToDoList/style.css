@@ -1,0 +1,91 @@
+body {
+    background: rgb(85, 215, 241);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: beige;
+}
+
+.instr {
+    text-align: center;
+    color: rgb(113, 105, 116);
+}
+
+#task {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px ;
+    padding: 5px;
+    border: none;
+}
+
+ul > li {
+    margin: 10px ;
+    padding: 10px ;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 191, 218);
+    font-family: 'Open Sans', sans-serif;
+    border: solid black 1pt;
+    border-radius: 5px;
+    text-transform: capitalize;
+    list-style: none;
+    
+}
+
+ul > li:hover {
+    background-color: #76CFE0 ;
+    transition: 1s ;
+}
+
+li > button {
+    background: none;
+    font-weight: 600;
+    float: right;
+    border: none;
+} 
+
+#add {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: none;
+    border: none;
+    color: beige;
+    background-color: #025F70;
+}
+
+#add:hover {
+    background-color: #02798F;
+}
+
+#list {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px ;
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#add {
+    border-radius: 5px ;
+    height: 30px;
+    margin-left: 5px;
+}
+
+#listitem {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+#usercon {
+    text-align: center;
+    margin-top: 50px;
+}
+
